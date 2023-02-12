@@ -1,0 +1,34 @@
+{
+  "name": "proxy-mock",
+  "version": "1.0.0",
+  "description": "node 代理、mock 返回数据。",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "nodemon lib/express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinghaiyang1994/node-proxy-mock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinghaiyang1994/node-proxy-mock/issues"
+  },
+  "homepage": "https://github.com/xinghaiyang1994/node-proxy-mock#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "path-to-regexp": "^6.2.1"
+  }
+}
