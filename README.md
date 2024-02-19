@@ -42,12 +42,12 @@ module.exports = {
 3. 安装依赖，`npm i path-to-regexp -D`
 4. 重启开发项目即可
 
-### 2.作为单独的 Node 服务
+### 2.作为单独的 Node 服务(express)
 
 步骤:
 
 1. 将 lib 下的所有文件拷贝进开发项目根目录的 proxy 目录中
 2. 需要将开发项目的 devServer.proxy 下的 target 指向当前 node 服务。在 node 服务种配置开发项目的后端 url，即 lib/config.js 中的 projectBackEndUrl 字段。
-3. 安装依赖，查看 node 的 package.json
+3. 安装依赖，查看 node 的 package.json `npm i express http-proxy-middleware cors path-to-regexp -D`
 4. 开发项目中启动 `nodemon proxy/express.js`
 5. 重启开发项目即可
